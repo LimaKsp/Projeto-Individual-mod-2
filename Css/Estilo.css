@@ -1,0 +1,90 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.txt {
+  color: aliceblue;
+}
+header {
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+  background-image: url(/imagens/Nv2.gif);
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/imagens/MTX01_0-1024x576.jpg);
+}
+
+footer {
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+  background-image: url(/imagens/Nv2.gif);
+  display: flex;
+  justify-items: center;
+}
+
+.box {
+  width: 50%;
+  height: 90%;
+  border-radius: 8%;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+/* .icone {
+  width: 50%;
+  height: 50%;
+  background-color: aquamarine;
+  border: solid 5px black;
+}
+
+.artigo {
+  width: 50%;
+  height: 50%;
+  background-color: crimson;
+} */
+
+.LE {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  width: 33vw;
+}
+
+.centro {
+  display: flex;
+  width: 33vw;
+}
+
+.LD {
+  display: flex;
+  width: 33vw;
+  align-items: flex-end;
+}
+
+.icone {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
