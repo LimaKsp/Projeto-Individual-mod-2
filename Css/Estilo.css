@@ -46,20 +46,18 @@ footer {
 }
 
 .box {
-  width: 50%;
-  height: 90%;
-  border-radius: 8%;
-  background-color: white;
   display: flex;
-  flex-wrap: wrap;
-}
-
-.conteudo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  flex-direction: row;
+    flex-flow: row wrap;
+    margin-top: 2%;
+    width: 30%;
+    background-color:rgba(0, 0, 0, 0.7);
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 2%;
+    color: white;
+    min-width: 360px;
+    min-height: 250px;
+    border-radius: 20px;
 }
 
 .LE {
@@ -78,6 +76,7 @@ footer {
   display: flex;
   width: 33vw;
   align-items: flex-end;
+  justify-content: end;
 }
 
 .icone {
