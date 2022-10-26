@@ -14,7 +14,7 @@ header {
   width: 100vw;
   height: 10vh;
   background-color: black;
-  background-image: url(/imagens/Nv2.gif);
+  background-image: url(../imagens/Nv2.gif);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,14 +33,14 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/imagens/MTX01_0-1024x576.jpg);
+  background-image: url(../imagens/MTX01_0-1024x576.jpg);
 }
 
 footer {
   width: 100vw;
   height: 10vh;
   background-color: black;
-  background-image: url(/imagens/Nv2.gif);
+  background-image: url(../imagens/Nv2.gif);
   display: flex;
   justify-items: center;
 }
